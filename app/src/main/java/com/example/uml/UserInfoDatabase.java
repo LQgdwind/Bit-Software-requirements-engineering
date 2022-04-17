@@ -15,9 +15,9 @@ public class UserInfoDatabase extends SQLiteOpenHelper
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase)
     {
-        sqLiteDatabase.execSQL("create table user(" +
+        sqLiteDatabase.execSQL("create table usersInfo(" +
                 "userKey integer primary key autoincrement," +
-                "userId integer," +
+                "account integer," +
                 "password text," +
                 "userName text," +
                 "email text," +

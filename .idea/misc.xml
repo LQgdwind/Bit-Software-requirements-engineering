@@ -3,12 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/dyhes/Desktop/UML/app/src/main/res/layout/activity_am.xml" value="0.16" />
-        <entry key="..\:/Users/dyhes/Desktop/UML/app/src/main/res/layout/activity_amm.xml" value="0.1" />
-        <entry key="..\:/Users/dyhes/Desktop/UML/app/src/main/res/layout/activity_login_register.xml" value="0.16973065412569474" />
-        <entry key="..\:/Users/dyhes/Desktop/UML/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/dyhes/Desktop/UML/app/src/main/res/layout/activity_main2.xml" value="0.13894826849080805" />
-        <entry key="..\:/Users/dyhes/Desktop/UML/app/src/main/res/layout/activity_register.xml" value="0.19324497648567765" />
+        <entry key="..\:/Users/dyhes/Desktop/UML/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1785" />
       </map>
     </option>
   </component>
