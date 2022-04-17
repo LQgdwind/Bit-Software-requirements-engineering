@@ -12,6 +12,22 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".AMActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Activity"
+            android:exported="true"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".Login_Register_Activity"
+            android:exported="true"
+            android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
