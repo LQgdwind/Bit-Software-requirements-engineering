@@ -40,6 +40,7 @@ public class Login_Register_Activity extends AppCompatActivity
         {
             @Override
             public void onClick(View view) {
+
                 Intent intent=new Intent(Login_Register_Activity.this,Register_Activity.class);
                 startActivity(intent);
             }
@@ -62,17 +63,21 @@ public class Login_Register_Activity extends AppCompatActivity
             int accountNum = cursor.getInt(MyTool.myAbs(cursor.getColumnIndex("account")));
             String accountJudge=Integer.toString(accountNum);
             String userName=cursor.getString(MyTool.myAbs(cursor.getColumnIndex("userName")));
+            String statusText=cursor.getString(MyTool.myAbs(cursor.getColumnIndex("status")));
             String passwordJudge=cursor.getString(MyTool.myAbs(cursor.getColumnIndex("password")));
             if(accountJudge.equals(accountText) && passwordJudge.equals(passwordText))
             {
                 AlertDialog.Builder dialog=new AlertDialog.Builder(Login_Register_Activity.this);
                 dialog.setTitle("登录成功");
-                dialog.setMessage("欢迎回来,"+userName);
+                dialog.setMessage("欢迎回来, "+statusText+": "+userName);
                 dialog.setCancelable(false);
                 dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Intent intent=new Intent(Login_Register_Activity.this,MainActivity.class);
+                        Intent intent;
+                        if(statusText.equals("admin"))
+                            intent=new Intent(Login_Register_Activity.this,Admin_Activity.class);
+                        else intent=new Intent(Login_Register_Activity.this,MainActivity.class);
                         startActivity(intent);
                     }
                 });
