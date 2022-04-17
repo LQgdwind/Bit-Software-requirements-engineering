@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/shedule"
+        android:layout_width="393dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/lexue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/schedule"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/yanhe"
+        android:layout_width="393dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/yanhe" />
+
+    <ImageView
+        android:id="@+id/exam"
+        android:layout_width="391dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/yanhe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/exam" />
+
+    <ImageView
+        android:id="@+id/lexue"
+        android:layout_width="393dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/exam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lexue" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
