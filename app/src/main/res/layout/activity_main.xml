@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/monitor"
         app:srcCompat="@drawable/student_affairs"
-        tools:layout_editor_absoluteX="36dp" />
+        tools:layout_editor_absoluteX="0dp" />
 
     <ImageView
         android:id="@+id/forum"
