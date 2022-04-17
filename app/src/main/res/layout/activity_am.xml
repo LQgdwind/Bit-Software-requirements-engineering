@@ -9,42 +9,41 @@
 
     <ImageView
         android:id="@+id/shedule"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="393dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toTopOf="@+id/lexue"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/schedule"
-        tools:layout_editor_absoluteX="0dp"
         tools:visibility="invisible" />
 
     <ImageView
         android:id="@+id/yanhe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:layout_width="393dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/yanhe"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/yanhe" />
 
     <ImageView
         android:id="@+id/exam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/lexue"
-        app:layout_constraintTop_toTopOf="@+id/lexue"
-        app:layout_constraintVertical_bias="0.862"
-        app:srcCompat="@drawable/exam"
-        tools:layout_editor_absoluteX="0dp" />
+        android:layout_width="391dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/yanhe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/exam" />
 
     <ImageView
         android:id="@+id/lexue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/yanhe"
-        app:layout_constraintTop_toTopOf="@+id/yanhe"
-        app:layout_constraintVertical_bias="0.833"
-        app:srcCompat="@drawable/lexue"
-        tools:layout_editor_absoluteX="0dp" />
+        android:layout_width="393dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/exam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lexue" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,37 +9,40 @@
 
     <ImageView
         android:id="@+id/acdemic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/forum"
+        android:layout_width="393dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="StartAM"
+        app:layout_constraintBottom_toTopOf="@+id/student"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/acdemic_management"
-        tools:ignore="ImageContrastCheck"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/student"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/monitor"
-        app:srcCompat="@drawable/student_affairs"
-        tools:layout_editor_absoluteX="0dp" />
+        android:layout_width="394dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/forum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/student_affairs" />
 
     <ImageView
         android:id="@+id/forum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="192dp"
+        android:layout_width="394dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toTopOf="@+id/monitor"
-        app:layout_constraintTop_toTopOf="@+id/monitor"
-        app:srcCompat="@drawable/campus_forum"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/campus_forum" />
 
     <ImageView
         android:id="@+id/monitor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="392dp"
+        android:layout_height="119dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/campus_monitor"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/campus_monitor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
