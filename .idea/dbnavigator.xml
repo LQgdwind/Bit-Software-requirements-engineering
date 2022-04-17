@@ -32,15 +32,13 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="271c26ae-4d41-464c-8afa-0ebac8a2e2a2" object-ref="schemas/main/tables/usersInfo" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="271c26ae-4d41-464c-8afa-0ebac8a2e2a2" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="271c26ae-4d41-464c-8afa-0ebac8a2e2a2" dataset="main.usersInfo" active-filter-id="">
+    <filter-actions connection-id="271c26ae-4d41-464c-8afa-0ebac8a2e2a2" dataset="main.usersInfo" active-filter-id="EMPTY_FILTER">
       <filter id="9d2756d0-124d-4849-a623-c093a26740d6" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="userKey" operator="=" value="" active="true" />
       </filter>
