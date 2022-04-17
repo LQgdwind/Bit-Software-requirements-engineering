@@ -172,6 +172,7 @@
         app:layout_constraintVertical_bias="0.737" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextUserId"
         android:layout_width="280dp"
         android:layout_height="48dp"
         android:layout_marginStart="5dp"
