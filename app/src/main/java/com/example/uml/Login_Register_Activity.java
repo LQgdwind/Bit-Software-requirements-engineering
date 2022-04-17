@@ -27,7 +27,8 @@ public class Login_Register_Activity extends AppCompatActivity
         ImageView login=(ImageView) findViewById(R.id.register_button_image);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 loginJudge();
             }
         });
@@ -71,7 +72,8 @@ public class Login_Register_Activity extends AppCompatActivity
                 dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-
+                        Intent intent=new Intent(Login_Register_Activity.this,MainActivity.class);
+                        startActivity(intent);
                     }
                 });
                 dialog.show();

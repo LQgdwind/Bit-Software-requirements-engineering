@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/dyhes/Desktop/UML/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1785" />
+=======
+        <entry key="..\:/Users/Administrator/Desktop/Bit-Software-requirements-engineering-a8aa8a09f5120c84095c6fc0a51b8349519ba742/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/Bit-Software-requirements-engineering-a8aa8a09f5120c84095c6fc0a51b8349519ba742/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/Bit-Software-requirements-engineering-a8aa8a09f5120c84095c6fc0a51b8349519ba742/app/src/main/res/layout/activity_am.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/github repo/BIT-Software-requirements-engineering/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/github repo/BIT-Software-requirements-engineering/app/src/main/res/layout/activity_login_register.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/Desktop/github repo/BIT-Software-requirements-engineering/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Administrator/Desktop/github repo/BIT-Software-requirements-engineering/app/src/main/res/layout/activity_register.xml" value="0.264" />
+>>>>>>> ad4634d2939cee41a294d2d197300b68de095162
       </map>
     </option>
   </component>
