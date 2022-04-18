@@ -12,7 +12,6 @@
         android:layout_width="393dp"
         android:layout_height="115dp"
         android:layout_marginBottom="40dp"
-        android:onClick="StartAM"
         app:layout_constraintBottom_toTopOf="@+id/student"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/acdemic_management"

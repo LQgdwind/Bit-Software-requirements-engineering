@@ -9,6 +9,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Pair;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -67,6 +68,7 @@ public class Login_Register_Activity extends AppCompatActivity
             String passwordJudge=cursor.getString(MyTool.myAbs(cursor.getColumnIndex("password")));
             if(accountJudge.equals(accountText) && passwordJudge.equals(passwordText))
             {
+                String[] userInfo={accountJudge,passwordJudge,userName};
                 AlertDialog.Builder dialog=new AlertDialog.Builder(Login_Register_Activity.this);
                 dialog.setTitle("登录成功");
                 dialog.setMessage("欢迎回来, "+statusText+": "+userName);
@@ -77,7 +79,10 @@ public class Login_Register_Activity extends AppCompatActivity
                         Intent intent;
                         if(statusText.equals("admin"))
                             intent=new Intent(Login_Register_Activity.this,Admin_Activity.class);
-                        else intent=new Intent(Login_Register_Activity.this,MainActivity.class);
+                        else{
+                            intent=new Intent(Login_Register_Activity.this,MainActivity.class);
+                            intent.putExtra("userInfo",userInfo);
+                        }
                         startActivity(intent);
                     }
                 });

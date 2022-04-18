@@ -21,7 +21,6 @@ public class Register_Activity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-
         this.initCheckSexBox();//初始化性别单选框
         this.initCheckStatusBox();//初始化身份单选框
         this.goToLoginActivity();//跳转登录活动
