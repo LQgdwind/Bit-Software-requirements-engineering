@@ -24,7 +24,7 @@ public class LeaveActivity extends AppCompatActivity {
         webSettings.setDatabaseEnabled(true);//开启 database storage API 功能
         webSettings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);//HTTPS，注意这个是在LOLLIPOP以上才调用的
         webSettings.setAppCacheEnabled(true);//开启 Application Caches 功能
-        webSettings.setBlockNetworkImage(true);//关闭加载网络图片，在一开始加载的时候可以设置为true，当加载完网页的时候再设置为false
+        webSettings.setBlockNetworkImage(false);//关闭加载网络图片，在一开始加载的时候可以设置为true，当加载完网页的时候再设置为false
         leave.setWebViewClient(new WebViewClient(){
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {

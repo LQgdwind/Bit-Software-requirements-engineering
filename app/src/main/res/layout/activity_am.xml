@@ -12,9 +12,10 @@
         android:id="@+id/shedule"
         android:layout_width="393dp"
         android:layout_height="115dp"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="40dp"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/lexue"
+        app:layout_constraintBottom_toTopOf="@+id/exam"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/schedule"
         tools:visibility="visible" />
@@ -43,8 +44,9 @@
         android:id="@+id/lexue"
         android:layout_width="393dp"
         android:layout_height="112dp"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/exam"
+        app:layout_constraintBottom_toTopOf="@+id/shedule"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/lexue" />
 
