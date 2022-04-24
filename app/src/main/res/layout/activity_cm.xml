@@ -6,4 +6,163 @@
     android:layout_height="match_parent"
     tools:context=".CMActivity">
 
+    <ImageView
+        android:id="@+id/mainview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="330dp"
+        android:text="校园监测"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/mainview"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mainview"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="55dp"
+        android:text="良乡校区"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/mainview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainview" />
+
+    <ImageView
+        android:id="@+id/northCafeteriaImage"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/mainview"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/northcafeteria" />
+
+    <ImageView
+        android:id="@+id/southCafeteriaImage"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/mainview"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/mainview"
+        app:layout_constraintTop_toBottomOf="@+id/northCafeteriaImage"
+        app:srcCompat="@drawable/southcafeteria" />
+
+    <ImageView
+        android:id="@+id/eastCafeteriaImage"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/mainview"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/mainview"
+        app:layout_constraintTop_toBottomOf="@+id/southCafeteriaImage"
+        app:srcCompat="@drawable/eastcafeteria" />
+
+    <ImageView
+        android:id="@+id/libraryImage"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/mainview"
+        app:layout_constraintTop_toBottomOf="@+id/eastCafeteriaImage"
+        app:srcCompat="@drawable/library" />
+
+    <ImageView
+        android:id="@+id/supermarketImage"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/mainview"
+        app:layout_constraintStart_toStartOf="@+id/mainview"
+        app:layout_constraintTop_toBottomOf="@+id/libraryImage"
+        app:srcCompat="@drawable/supermarket" />
+
+    <TextView
+        android:id="@+id/northcafeteria"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/northCafeteriaImage"
+        app:layout_constraintEnd_toEndOf="@+id/northCafeteriaImage"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/northCafeteriaImage"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/southcafeteria"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/southCafeteriaImage"
+        app:layout_constraintEnd_toEndOf="@+id/southCafeteriaImage"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/southCafeteriaImage"
+        app:layout_constraintTop_toTopOf="@+id/southCafeteriaImage"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <TextView
+        android:id="@+id/eastcafeteria"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/eastCafeteriaImage"
+        app:layout_constraintEnd_toEndOf="@+id/eastCafeteriaImage"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/eastCafeteriaImage"
+        app:layout_constraintTop_toTopOf="@+id/eastCafeteriaImage"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/library"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/libraryImage"
+        app:layout_constraintEnd_toEndOf="@+id/libraryImage"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/libraryImage"
+        app:layout_constraintTop_toTopOf="@+id/libraryImage"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/supermarket"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/supermarketImage"
+        app:layout_constraintEnd_toEndOf="@+id/supermarketImage"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="@+id/supermarketImage"
+        app:layout_constraintTop_toTopOf="@+id/supermarketImage"
+        app:layout_constraintVertical_bias="0.462" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
