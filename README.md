@@ -1,5 +1,4 @@
-# Bit-Software-requirements-engineering
-BIT-Software-requirements-engineering_2022_Team7
+
 往里填相应内容
 
 SAActivity activity_sa 学生事务(student affairs)
