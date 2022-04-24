@@ -21,6 +21,30 @@ public class MainActivity extends AppCompatActivity {
                 Start(AMActivity.class,userInfo);
             }
         });
+        findViewById(R.id.student).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Start(SAActivity.class,userInfo);
+            }
+        });
+        findViewById(R.id.student).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Start(SAActivity.class,userInfo);
+            }
+        });
+        findViewById(R.id.forum).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Start(CFActivity.class,userInfo);
+            }
+        });
+        findViewById(R.id.monitor).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Start(CMActivity.class,userInfo);
+            }
+        });
     }
 
     public void Start(Class<?> activityClass, String[] userInfo){
