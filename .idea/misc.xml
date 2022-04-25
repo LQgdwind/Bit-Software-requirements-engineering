@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/83515/Desktop/Worktable/Beijing Institude of Technology/College of Computer Science/4th Semester/Software requirements engineering &amp; UML/Bit-Software-requirements-engineering-blogs/Bit-Software-requirements-engineering-blogs/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.224" />
+        <entry key="..\:/Users/83515/Desktop/Worktable/Beijing Institude of Technology/College of Computer Science/4th Semester/Software requirements engineering &amp; UML/Bit-Software-requirements-engineering-blogs/Bit-Software-requirements-engineering-blogs/app/src/main/res/layout/activity_am.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/Worktable/Beijing Institude of Technology/College of Computer Science/4th Semester/Software requirements engineering &amp; UML/Bit-Software-requirements-engineering-blogs/Bit-Software-requirements-engineering-blogs/app/src/main/res/layout/activity_bbs.xml" value="0.2" />
+        <entry key="..\:/Users/83515/Desktop/Worktable/Beijing Institude of Technology/College of Computer Science/4th Semester/Software requirements engineering &amp; UML/Bit-Software-requirements-engineering-blogs/Bit-Software-requirements-engineering-blogs/app/src/main/res/layout/activity_fbbs.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/Worktable/Beijing Institude of Technology/College of Computer Science/4th Semester/Software requirements engineering &amp; UML/Bit-Software-requirements-engineering-blogs/Bit-Software-requirements-engineering-blogs/app/src/main/res/layout/activity_sa.xml" value="0.1" />
+        <entry key="..\:/Users/83515/Desktop/Worktable/Beijing Institude of Technology/College of Computer Science/4th Semester/Software requirements engineering &amp; UML/Bit-Software-requirements-engineering-blogs/Bit-Software-requirements-engineering-blogs/app/src/main/res/layout/bbs_all.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/Worktable/Beijing Institude of Technology/College of Computer Science/4th Semester/Software requirements engineering &amp; UML/Bit-Software-requirements-engineering-blogs/Bit-Software-requirements-engineering-blogs/app/src/main/res/layout/commodity1_fragment.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/drawable/forum_edittext_style.xml" value="0.1" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/drawable/good.xml" value="0.1" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/drawable/icon_good.xml" value="0.1" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/activity_am.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/activity_bbs.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/activity_forum.xml" value="0.2" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/activity_login_register.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/activity_register.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/activity_sa.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/bbs_fragment.xml" value="0.225" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/bbs_fragment_all.xml" value="0.264" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/bbs_fragment_complaints.xml" value="0.1" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/bbs_fragment_confess.xml" value="0.1" />
+        <entry key="..\:/Users/83515/Desktop/tmp/uml/sw/app/src/main/res/layout/bbs_fragment_zhihu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
