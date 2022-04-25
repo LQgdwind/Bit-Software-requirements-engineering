@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/AllLayoutWindow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="102dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="420dp"
+        android:background="#8FBC8F">
+
+        <TextView
+            android:id="@+id/AllLayoutWindow1_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+
+            android:text="  #3 匿名|吐槽                                                                         一天前"
+            android:textSize="12dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+
+            android:text="        为啥图书馆校园网这么慢？"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="赞"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@android:color/transparent"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="0dp"
+            android:drawableLeft="@drawable/good">
+        </Button>
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+
+            android:text="踩"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@android:color/transparent"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="0dp"
+            android:drawableLeft="@drawable/bad">
+        </Button>
+
+    </RelativeLayout>
+</LinearLayout>
